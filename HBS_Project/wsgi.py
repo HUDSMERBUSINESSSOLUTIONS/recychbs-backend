@@ -26,4 +26,3 @@ application.add_files(os.path.join(settings.BASE_DIR, 'dist'), prefix='')  # Ser
 
 # Optionally, add React's static assets
 application.add_files(os.path.join(settings.BASE_DIR, 'dist/assets'), prefix='assets/')
-app = application
