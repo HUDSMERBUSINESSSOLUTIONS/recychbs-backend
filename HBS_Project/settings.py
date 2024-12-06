@@ -287,19 +287,19 @@ from django.conf import settings
 
 
 
-from google.oauth2 import service_account
+#from google.oauth2 import service_account
 
 # Corrected line
-GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
-    os.path.join(BASE_DIR, 'service-account-key.json')
-)
+#GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+#    os.path.join(BASE_DIR, 'service-account-key.json')
+#)
 
-DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
-GS_PROJECT_ID = 'recychbs-442304'
-GS_BUCKET_NAME = 'hbs_recyc'
-MEDIA_ROOT = "media/"
-UPLOAD_ROOT = 'media/uploads/'
-MEDIA_URL = f'https://storage.googleapis.com/{GS_BUCKET_NAME}/media/'
+#DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+#GS_PROJECT_ID = 'recychbs-442304'
+#GS_BUCKET_NAME = 'hbs_recyc'
+#MEDIA_ROOT = "media/"
+#UPLOAD_ROOT = 'media/uploads/'
+#MEDIA_URL = f'https://storage.googleapis.com/{GS_BUCKET_NAME}/media/'
 
 
 # Static files (CSS, JavaScript, etc.)
