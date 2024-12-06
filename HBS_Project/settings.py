@@ -30,7 +30,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['django-djreact-app-d5af3d4e3559.herokuapp.com']
 ALLOWED_HOSTS = ['www.recychbsadmin.in']
-
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 # Application definition
 
 INSTALLED_APPS = [
@@ -118,12 +118,12 @@ WSGI_APPLICATION = 'HBS_Project.wsgi.application'
 
 DATABASES = {
     'default' : {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME':'mydb',
-        'HOST':'localhost',
-        'USER':'postgres',
-        'PASSWORD':'postgres',
-        'PORT':'5432'
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'recychbs_db',
+        'HOST':'82.112.238.156',
+        'USER':'vpsdb',
+        'PASSWORD':'Hudsmer@123',
+        'PORT':'3306'
     }
 }
 
