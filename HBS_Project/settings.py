@@ -13,6 +13,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['django-djreact-app-d5af3d4e3559.herokuapp.com']
 ALLOWED_HOSTS = ['www.recychbsadmin.in']
 ALLOWED_HOSTS = ['www.app.recychbs.in']  # Update this with your server's domain or IP when deploying
+ALLOWED_HOSTS = ['recychbs-backend.onrender.com']
  
 # Application definition
 INSTALLED_APPS = [
