@@ -31,6 +31,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['django-djreact-app-d5af3d4e3559.herokuapp.com']
 ALLOWED_HOSTS = ['www.recychbsadmin.in']
 ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['recychbs-backend.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
