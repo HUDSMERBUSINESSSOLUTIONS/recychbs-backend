@@ -105,7 +105,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
  
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    'https://www.app.recychbs.in',  # Allow frontend URL
+    'https://www.app.recychbs.in',
+    'recychbs-backend.onrender.com',# Allow frontend URL
 ]
  
 # Default primary key field type
